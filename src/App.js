@@ -38,8 +38,12 @@ function App() {
             </article>
           )
         })}
-        <button className="prev"><FiChevronLeft/> </button>
-        <button className="next"><FiChevronRight/> </button>
+        <button className="prev"
+          onClick={() => setIndex(index - 1)}
+        ><FiChevronLeft/> </button>
+        <button className="next"
+          onClick={() => setIndex(index + 1)}
+        ><FiChevronRight/> </button>
       </div>
     </section>
   );
