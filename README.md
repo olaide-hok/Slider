@@ -1,7 +1,7 @@
 # Sliders
 
 ### Overview
-A Sliders App that fetches job title, date, type and description from an API and displays it to the UI.
+A Sliders App that fetches data from about people from Airtable.
 
 ### How to start
 
